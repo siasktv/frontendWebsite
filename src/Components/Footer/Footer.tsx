@@ -2,15 +2,15 @@ import { styled, Typography } from '@mui/material'
 import { Box, Container } from '@mui/system'
 
 const Footer = () => {
-  const CustomContainer = styled(Container)(({ theme }) => ({
-    display: 'flex',
-    justifyContent: 'space-around',
+  // const CustomContainer = styled(Container)(({ theme }) => ({
+  //   display: 'flex',
+  //   justifyContent: 'space-around',
 
-    [theme.breakpoints.down('sm')]: {
-      flexDirection: 'column',
-      textAlign: 'center',
-    },
-  }))
+  //   [theme.breakpoints.down('sm')]: {
+  //     flexDirection: 'column',
+  //     textAlign: 'center',
+  //   },
+  // }))
 
   //   const IconBox = styled(Box)(({ theme }) => ({
   //     display: 'flex',
@@ -21,7 +21,7 @@ const Footer = () => {
   //     },
   //   }))
 
-  const FooterLink = styled('span')(({ theme }) => ({
+  const FooterLink = styled('span')(({}) => ({
     fontSize: '16px',
     color: '#7A7A7E',
     fontWeight: '300',

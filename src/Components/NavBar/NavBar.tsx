@@ -67,7 +67,7 @@ const AppBar: React.FC = () => {
     </Box>
   )
 
-  const NavLink: any = styled(Typography)(({ theme }) => ({
+  const NavLink: any = styled(Typography)(({}) => ({
     fontSize: '14px',
     color: '#4F5361',
     fontWeight: 'bold',

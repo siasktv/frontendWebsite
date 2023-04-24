@@ -48,15 +48,15 @@ const reviews = [
   },
 ]
 
-const PropertiesBox = styled(Box)(({ theme }) => ({
-  display: 'flex',
-  justifyContent: 'space-between',
-  marginTop: theme.spacing(5),
-  [theme.breakpoints.down('md')]: {
-    flexDirection: 'column',
-    alignItems: 'center',
-  },
-}))
+// const PropertiesBox = styled(Box)(({ theme }) => ({
+//   display: 'flex',
+//   justifyContent: 'space-between',
+//   marginTop: theme.spacing(5),
+//   [theme.breakpoints.down('md')]: {
+//     flexDirection: 'column',
+//     alignItems: 'center',
+//   },
+// }))
 
 const PropertiesTextBox = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down('md')]: {
@@ -65,26 +65,6 @@ const PropertiesTextBox = styled(Box)(({ theme }) => ({
 }))
 
 export default function Testimonial() {
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  }
-
   //memoria, cpu, discoduro, eMMC, tarjeta de video, NVIDIA, tarjeta Wifi, SSD, moderboards,
   return (
     <Box sx={{ mt: 5, backgroundColor: '#F5FAFE', py: 10 }}>
