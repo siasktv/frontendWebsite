@@ -42,15 +42,15 @@ const Section = () => {
     },
   }))
 
-  const LearnMoreBox = styled(Box)(({ theme }) => ({
-    position: 'fixed',
-    bottom: theme.spacing(3),
-    right: theme.spacing(3),
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    cursor: 'pointer',
-  }))
+  // const LearnMoreBox = styled(Box)(({ theme }) => ({
+  //   position: 'fixed',
+  //   bottom: theme.spacing(3),
+  //   right: theme.spacing(3),
+  //   display: 'flex',
+  //   justifyContent: 'center',
+  //   alignItems: 'center',
+  //   cursor: 'pointer',
+  // }))
 
   return (
     <Box
